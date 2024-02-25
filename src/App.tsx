@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import styles from './App.module.css';
+import OpenAIHelloWorld from './OpenAI/openAiHelloWorld'; // Import the OpenAIHelloWorld component
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
+    <div className={styles.App}>
+      <OpenAIHelloWorld /> 
+      <button className={styles.coolButton}>Generate New Message</button>
     </div>
   );
 }
