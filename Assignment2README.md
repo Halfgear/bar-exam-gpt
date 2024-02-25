@@ -23,7 +23,7 @@ npm install openai
 1. **API Key**: I did not want to include my API key into submission, so please Insert your OpenAI API key in the `apiKey` field of the `OpenAI` instance configuration to test my code.
 
 ## this is my output
-![Project Output](https://github.com/username/repository/blob/main/path/to/projectOutput.png)
+![Project Output](https://github.com/Halfgear/bar-exam-gpt/blob/main/projectOutput.png)
 
 ```javascript
 const openai = new OpenAI({
