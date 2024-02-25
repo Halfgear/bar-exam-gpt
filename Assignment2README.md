@@ -1,4 +1,4 @@
-# OpenAIHelloWorld Component Documentation
+# OpenAIHelloWorld Documentation
 
 This React component `OpenAIHelloWorld` integrates OpenAI's API to generate text using the `openai.chat.completions.create` method. It displays a button that, when clicked, triggers the generation of "Hello World" text, which is then displayed on the webpage.
 
@@ -22,9 +22,6 @@ npm install openai
 
 1. **API Key**: I did not want to include my API key into submission, so please Insert your OpenAI API key in the `apiKey` field of the `OpenAI` instance configuration to test my code.
 
-## this is my output
-![Project Output](https://github.com/Halfgear/bar-exam-gpt/blob/main/projectOutput.png)
-
 ```javascript
 const openai = new OpenAI({
     apiKey: 'YOUR_API_KEY',
@@ -35,6 +32,9 @@ const openai = new OpenAI({
 1. Running the Component: Include the OpenAIHelloWorld component in your React application. Once the application is running, you can generate text by clicking the "Generate Hello World" button.
 
 2. Display: The generated text will be displayed on the webpage below the button after the API call is completed.
+
+## this is my output
+![Project Output](https://github.com/Halfgear/bar-exam-gpt/blob/main/projectOutput.png)
 
 # Reflection
 My experience integrating OpenAI's API into a React application was both challenging and enlightening. One of the main difficulties I faced was configuring the API without a backend framework. Initially, I attempted to manage this directly within the React app, which led to complexities, especially when dealing with API errors and securing the API key. In future projects, I plan to utilize Nest.js for the backend to create a more robust and secure environment for handling API requests and managing potential errors.
